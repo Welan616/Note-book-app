@@ -1,0 +1,132 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;
+}
+main {
+    width: 100%;
+    height: 100vh;
+    max-height: auto;
+    background: linear-gradient(270deg, #a9d3ff, #791e94);
+    padding-top:  50px;
+    padding-left: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    overflow-y: scroll;
+}
+.saved-notes {
+    width: 350px;
+    height: 180px;
+    padding: 10px;
+}
+.container {
+    border: 2px solid black;
+    height: 120px;
+    width: 300px;
+    border-radius:25px 0 25px 0;
+}
+/* code below styles the header and the create notes button */
+.container div {
+    height: 50px;
+    width: auto;
+    padding: 10px 20px;
+    margin:10px 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.container div img {
+  width: 30px;
+  height: 30px;
+  transform: translateY(4px);
+}
+img {
+    width: 25px;
+    height: 25px;
+}
+.btn {
+    margin-left: 20px;
+    height: auto;
+    padding: 3px;
+    background: linear-gradient(180deg, #407899, #41d3bd);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+/* Code below styles the search form */
+.input {
+ margin: 10px 20px;
+}
+.input input {
+    border: 1.5px solid #333;
+    outline: none;
+    border-radius: 5px;
+    height: 22px;
+    width: auto;
+    padding: 3px;
+}
+
+/* this code below styles the notes-container html class */
+.notes-container {
+    height: auto;
+    width: 700px;
+    padding: 10px;
+    margin: 5px;
+}
+.notes {
+position: relative;
+width: 500px;
+min-height: 200px;
+max-height: 500px;
+background: #fffff2;
+border: none;
+border-radius: 5px;
+color: #333;
+caret-color: #000;
+padding: 10px;
+outline: none;
+}
+ .div {
+width: 500px;
+height: auto;
+padding: 3px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background: #fffff2;
+margin-bottom: 3px;
+}
+.img-con {
+    width: 100px;
+}
+.img-con img{
+    text-align: right;
+    cursor: pointer;
+    margin: 0 3px;
+}
+.title {
+ width: auto;
+ padding: 2px;
+ caret-color: #000;
+ max-width: 200px;
+ outline: none;
+ overflow: hidden;
+ max-height: 23px;
+ white-space: nowrap;
+ overflow-x: scroll;
+}
+.note-content {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ padding: 5px;
+ width: 520px;
+ margin-top: 20px;
+}
